@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MagniAuthentication",
+    "\\MagniAuthentication\\MagniBaseAuthentication",
+    "\\MagniAuthentication\\MagniBaseAuthentication\\Controllers",
+    "\\MagniAuthentication\\MagniBaseAuthentication\\Interface",
+    "\\MagniAuthentication\\MagniBaseAuthentication\\Models"
+  ],
+  "SelectedNode": "\\MagniAuthentication\\MagniAuthentication.csproj",
+  "PreviewInSolutionExplorer": false
+}
