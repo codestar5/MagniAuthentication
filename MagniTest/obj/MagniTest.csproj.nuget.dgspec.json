@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Magni\\20221130\\MagniAuthentication\\MagniAuthentication\\MagniAuthentication.csproj": {}
+    "D:\\Magni\\20221130\\MagniAuthentication\\MagniTest\\MagniTest.csproj": {}
   },
   "projects": {
-    "D:\\Magni\\20221130\\MagniAuthentication\\MagniAuthentication\\MagniAuthentication.csproj": {
+    "D:\\Magni\\20221130\\MagniAuthentication\\MagniTest\\MagniTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Magni\\20221130\\MagniAuthentication\\MagniAuthentication\\MagniAuthentication.csproj",
-        "projectName": "MagniAuthentication",
-        "projectPath": "D:\\Magni\\20221130\\MagniAuthentication\\MagniAuthentication\\MagniAuthentication.csproj",
+        "projectUniqueName": "D:\\Magni\\20221130\\MagniAuthentication\\MagniTest\\MagniTest.csproj",
+        "projectName": "MagniTest",
+        "projectPath": "D:\\Magni\\20221130\\MagniAuthentication\\MagniTest\\MagniTest.csproj",
         "packagesPath": "C:\\Users\\Hero\\.nuget\\packages\\",
-        "outputPath": "D:\\Magni\\20221130\\MagniAuthentication\\MagniAuthentication\\obj\\",
+        "outputPath": "D:\\Magni\\20221130\\MagniAuthentication\\MagniTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,21 +45,25 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[17.1.0, )"
             },
-            "Microsoft.EntityFrameworkCore": {
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[3.1.2, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "xunit": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[2.4.1, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[2.4.3, )"
             }
           },
           "imports": [
@@ -74,9 +78,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

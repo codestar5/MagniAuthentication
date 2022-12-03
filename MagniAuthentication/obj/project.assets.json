@@ -2167,19 +2167,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\Hero\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\Magni\\MagniAuthentication\\MagniAuthentication\\MagniAuthentication.csproj",
+      "projectUniqueName": "D:\\Magni\\20221130\\MagniAuthentication\\MagniAuthentication\\MagniAuthentication.csproj",
       "projectName": "MagniAuthentication",
-      "projectPath": "C:\\Users\\Administrator\\Documents\\Magni\\MagniAuthentication\\MagniAuthentication\\MagniAuthentication.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Documents\\Magni\\MagniAuthentication\\MagniAuthentication\\obj\\",
+      "projectPath": "D:\\Magni\\20221130\\MagniAuthentication\\MagniAuthentication\\MagniAuthentication.csproj",
+      "packagesPath": "C:\\Users\\Hero\\.nuget\\packages\\",
+      "outputPath": "D:\\Magni\\20221130\\MagniAuthentication\\MagniAuthentication\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Hero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2187,6 +2192,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
